@@ -1,0 +1,175 @@
+
+.main{
+  background-color: rgba(13, 166, 226, 0.329);
+}
+
+.img{
+    display: block;
+    margin-left: 160px;
+    width: 20%;
+    margin-right: 30px;
+  }
+
+  .texto{
+    float: right;
+    font-size: 20px;
+    margin-right: 38%;
+    word-spacing: 10px;
+    margin-left: 30px;
+ 
+}
+
+.h1{
+color: rgb(48, 2, 255);
+margin-top: 60px;
+}
+
+.topnav{
+  overflow: hidden;
+background-color: rgb(106, 178, 206);
+
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover{
+background-color: rgb(255, 255, 255);
+}
+
+.texto{
+  float: right;
+  font-size: 20px;
+  margin-right: 60px;
+  word-spacing: 10px;
+  margin-left: 30px;
+}
+
+.boton{
+text-decoration: none;  
+background-color: rgb(13, 142, 255);
+color: rgb(255, 255, 255);
+padding: 20px;
+margin-right: 700px;
+margin-top: 30px;
+display: inline-block;
+margin-bottom: 40px;
+
+}
+
+
+
+.imagen{
+  float: left;
+  width: 400px;
+}
+
+.grid-container {
+  display: grid;
+  text-align: center;
+  height: 50px;
+  grid-template-columns: auto auto ;
+  gap: 5px;
+  background-color: rgb(0, 136, 255);
+  padding: 30px;
+}
+
+
+.grid-container > div {
+  padding: 10px;
+  font-size: 50px;
+}
+
+
+.banner{
+background-color: rgb(143, 218, 218);
+padding: 4%;
+text-align: center;
+padding-top: 20px;
+margin-top: 20px;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(9, 218, 255, 0.2);
+
+}
+
+.container {
+  padding: 2px 6px;
+  
+}
+
+.br{
+  text-align: center;
+}
+
+
+
+.nico{
+  width: 400px;
+}
+.card {
+ 
+  text-align: center;
+  background-color: #8ec5e6;
+  margin-left: 10px;
+}
+
+
+
+
+  
+  .main-izq{
+    background-color: #92e2f067;
+  grid-area: main-izq;
+
+  height: 600px;
+  background-image: url(./fotos/images.jpg);
+  
+}
+  
+  .main-der{
+  grid-area: main-der;
+  text-align: center;
+  background-color: #f1e47baf;
+  margin-left: -10px;
+  }
+  
+  .parte-inferiror{
+  grid-area: parte-inferior;
+  text-align: center;
+  height: 90px;
+  background-color: rgb(95, 252, 252);
+  
+  }
+  
+  .grid-containe{
+  display: grid;
+  
+  grid-template-areas:
+                       ' main-izq  main-izq main-izq  main-der' 
+                       'parte-inferior parte-inferior  parte-inferior   parte-inferior    ';
+                    
+    gap: 10px
+  }
+  
+  .contacto{
+  font-size: 60px;
+  margin-right: 750px;
+  margin-top: 50px;
+  }
+  .tele{
+   margin-right: 900px;
+   margin-top: 70px;
+  }
+  .emoji{
+  font-size: 30px;
+  margin-right: 1000px;
+  }
