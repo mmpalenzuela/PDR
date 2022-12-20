@@ -1,0 +1,25 @@
+
+.body{
+background-color: black;    
+}
+
+.header{
+font-size:  60px;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+color: rgb(243, 17, 17);
+font-weight: 1000;
+background-color: black;
+}
+
+.main{
+background-image: url("./cyber-hacker-ataque-fondo-craneo-vector_42077-12551.jpg");
+}
+.fotos{
+margin-left: 386px;
+width: 1000px;
+}
+
+.tx{
+color: rgb(250, 250, 250);
+}
